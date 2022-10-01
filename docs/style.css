@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: rgba(248, 242, 242, 0.726);
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: #010409;
+    padding: 90px 20px 0;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* background: rgba(0, 0, 0, 0.86); */
+    background: #161b2288;
+}
+
+.nav-links {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-items{
+    display: inline-block;
+    /* background: rgba(5, 16, 19, 0.849); */
+    background: #30363d;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nav-items a:hover {
+    color: #0088a9;
+}
+
+.presentacion{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.presentacion img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.logo-inicio{
+    width: 650px;
+    text-align: center;
+}
+
+.team {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 70px;
+    padding: 70px;
+    justify-content: center;
+}
+
+.player{
+    width: max-content;
+    height: 500px;
+    background: #0d1117;
+    margin-bottom: 5px;
+    display: flex;
+    color: white;
+    border-radius: 15px;
+}
+
+.neeko {
+    width: 650px;
+}
+
+.neeko-stats{
+    margin: auto;
+}
+
+.img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    /* padding-top: 10px; */
+    padding: 20px;
+}
+
+.title h1{
+    font-size: 28px;
+}
+
+.stats-list{
+    list-style: none;
+    /* margin-top: 5px; */
+    padding: 20px;
+}
+
+.stats-items {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.victoria {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.victoria-title{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.video{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background: black;
+    margin: auto;
+    object-fit: cover;
+}
